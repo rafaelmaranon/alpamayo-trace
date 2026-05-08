@@ -1,0 +1,29 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Python (in case anyone forks and adds tooling)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (in case anyone adds a dev server)
+node_modules/
+
+# Local-only data (anyone forking shouldn't commit personal traces / videos)
+data/
+fixtures/
+outputs/
+*.tar.gz
+
+# Secrets (forward-looking)
+.env
+*.token
